@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/kit.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="part1">
+            <div class="nav1">
+                <img src="kit-img/asp1.png" height="30px" width="30px" alt="">
+                <p class="headi">KITCOR</p>
+            </div>
+            <div class="nav2">
+                <ul>
+                    <li class="list-item"><a href="#">HOME</a></li>
+                    <li class="list-item"><a href="#">KITCHENS</a></li>
+                    <li class="list-item"><a href="#">PROJECTS</a></li>
+                    <li class="list-item"><a href="#">SHOP</a></li>
+                    <li class="list-item"><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="part2">
+            <h3>Design Your Kitchens with the Experts</h3>
+            <small>$150 deposit 
+            3D Design & Measurment</small>
+             <a href="#" id="link-main">VISIT SNOW ROOM &rarr;</a>
+        </div>
+        </div>
+        
+       
+       
+        <div class="part3">
+            <div class="p3-1">
+                <p class="big-num">25</p>
+                <p>Years <br>Experience <br>
+                Working</p>
+            </div>
+            <div class="p3-2">
+                <p class="small">ABOUT US</p>
+                <p class="headi">
+                    Creative solutions by professional designers
+                </p>
+            </div>
+            <div class="p3-3">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
+                    nostrum aut reiciendis praesentium repudiandae aliquam, quo quas,
+                     beatae, excepturi necessitatibus quasi?
+                    </p>
+                    <a href="#" id="p3-3-link">CONTINUE READING &rarr;</a>
+            </div>
+
+        </div>
+        <div class="part4">
+            <div class="p4-1">
+                <p class="head-4">Country Collection</p>
+                <p class="p4-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
+                    nostrum aut reiciendis praesentium repudiandae. <br><br> <a href="#" class="link-4">READ MORE</a>
+                    </p>
+               
+            </div>
+            <div class="p4-2">
+                <p class="head-4">Concord Collection</p>
+              
+                <p class="p4-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
+                    nostrum aut reiciendis praesentium repudiandae. <br><br> <a href="#" class="link-4">READ MORE</a>
+                    </p>
+               
+            </div>
+            <div class="p4-3">
+                <p class="head-4">Classic Collection</p>
+            
+                <p class="p4-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
+                    nostrum aut reiciendis praesentium repudiandae. <br><br> <a href="#" class="link-4">READ MORE</a>
+                    </p>
+                
+            </div>
+            <div class="p4-4">
+                <p class="head-4">Luxor Collection</p>
+         
+                <p class="p4-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus 
+                    nostrum aut reiciendis praesentium repudiandae. <br><br> <a href="#" class="link-4">READ MORE</a>
+                    </p>
+                
+            </div>
+
+        </div>
+        <div class="part5">
+            <div class="p5-1">
+                <p class="small">WHY CHOOSE US</p>
+                            <p class="headi">
+                                Extremely high standard of 
+                                customer satisfaction
+                            </p>
+
+            </div>
+            <div class="p5-2">
+                <div class="p5-2-1">
+                    <i></i>
+                    <p class="til">
+                        Full Service
+                    </p>
+                    <p class="p5-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quis iste conse quatur praese ntium reprehe ratione
+                         placeat.</p>
+                </div>
+                <div class="p5-2-1">
+                    <i></i>
+                    <p class="til">
+                        Deliver Value
+                    </p>
+                    <p class="p5-para"> Lorem ipsum dolor sit amet consectetur adipi sicing elit.
+                         excepturi velit iusto excepturi velit iusto nam?</p>
+                </div>
+                <div class="p5-2-1">
+                    <i></i>
+                    <p class="til">Partners</p>
+                    <p class="p5-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quis minima atque. Dolores excepturi
+                          velit iusto nam? </p>
+                </div>
+                <div class="p5-2-1">
+                    <i></i>
+                    <p class="til">Integrity</p>
+                    <p class="p5-para"> Lorem ipsum dolor sit amet consectetur adipicing elit.
+                        Quis iste consequatur pima atque. Dolores excepturi
+                          velit iusto nam? </p>
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="part6">
+            <div class="p6-1">
+                <p class="small">PROMO VIDEO</p>
+                <p class="headi">Ensuring a safe experience from design to installation</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis iste consequatur praesentium reprehenderit ratione
+                     quibusdam et veniam.</p>
+               <a href="#" id="link-main">MORE VIDEOS &trianglerighteq;</a>
+            </div>
+            <div class="p6-2">
+                <video width="100%" height="240px" poster="kit-img/kit9.jpg" id="vid">
+                    <source src="kit-img/video1.mp4" type="video/mp4">
+                    
+                 </video>
+                 
+               
+                <a id="playbtn" onclick="playvid()">&triangleright;</a>
+                <a id="pusbtn" onclick="pausevid()">&parallel;</a>
+                <script>
+                    const vid=document.querySelector('#vid');
+                    const btn = document.querySelector('#playbtn');
+                     const btnp = document.querySelector('#pusbtn');
+                    function playvid(){
+                        vid.play();
+                        btn.style.display='none';
+                        btnp.style.display='flex';
+                    }
+                    function pausevid(){
+                        vid.pause();
+                        btnp.style.display='none';
+                        btn.style.display='flex';
+                    }
+                </script>
+            </div>
+
+        </div>
+        
+        <div class="part8">
+            <div class="p8-1">
+                <p class="small">OUR PROJECT</p>
+                <p class="headi">Explore kitchen design</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Ipsam culpa incidunt fugiat veritatis dolorem velit saepe 
+                    ero.
+                </p>
+            </div>
+            <div class="p8-2">
+                <div class="p8-2-1">
+                    <img src="kit-img/kit1.jpg" height="180px" width="200px" alt="">
+                    <img src="kit-img/kit2.jpg" height="180px" width="200px" alt="">
+                    <img src="kit-img/kit3.jpg" height="180px" width="200px" alt=""></div>
+                <div class="p8-2-2">
+                    <img src="kit-img/kit4.jpg" height="180px" width="200px" alt="">
+                    <img src="kit-img/kit5.jpg" height="180px" width="200px" alt="">
+                    <img src="kit-img/kit6.jpg" height="180px" width="200px" alt=""></div>
+            </div>
+
+        </div>
+        <div class="part9">
+        <div class="p9-1">
+            <img src="kit-img/kit10.jpg" height="100%" width="100%" alt="">
+        </div>
+        <div class="p9-2">
+            <p class="headi">Stunning kitchens,<br>
+            simplified process</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+               Ipsam ea porro accusantium delectus odio eum assumenda, 
+               nihil reiciendis illum recusandae praesentium suscipit 
+               ut sed sapiente voluptatibus corrupti. Eaque, consectetur sunt!</p>
+               <a href="#" id="link-9">GET AN INSTANT ESTIMATE &rarr;</a>
+        </div>
+        </div>
+        <div class="part10">
+            <div class="p10-1">
+                <p class="small">OUR CLIENTS</p>
+                <p class="headi">Here's what our satisfied clients are saying</p>
+                
+            </div>
+            <div class="p10-2">
+                <div class="p10-2-1">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Incidunt placeat aliquid enim sint sed aut ex nam quam
+                          quasi, alias id maiores voluptates quia facilis amet
+                           nesciunt possimus soluta officiis.</p>
+                           
+                           <p class="usr-name">
+                       <img src="kit-img/fb2.jpg" height="50px" width="50px" alt="">       
+                            Joshua kelth <br>
+                        <i>Senior client</i>
+                           </p>
+                          
+                </div>
+              <div class="p10-2-1">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Incidunt placeat aliquid enim sint sed aut ex nam quam
+                          quasi, alias id maiores voluptates quia facilis amet
+                           nesciunt possimus soluta officiis.</p>
+                          
+                           <p class="usr-name">
+                             <img src="kit-img/fb.jpg" height="50px" width="50px" alt="">
+                            Sharon Gunther <br>
+                            <i>Fresh Design</i>
+                        </p>
+                           
+                </div>
+              
+            </div>
+        </div>
+        <div class="part11">
+            <div class="p9-2">
+                <p class="small">METHOD</p>
+                 <p class="headi">A modern approach <br>
+                to design</p>   
+                
+                <p>Lorem ipsum dolor sit amet consectetur adit. nesciunt molestias, voluptates eveniet molestiae nostrum voluptatem ut alias dignissimos cumque similique quo perferendis sed consequatur eaque? Ea.</p>
+                    <a href="#" id="link-11">VIEW OUR GALLERY &rarr;</a>
+            </div>
+            <div class="p9-1">
+              <img src="kit-img/kit8.jpg" height="400px" width="100%" alt="">
+            </div>
+
+        </div>
+        <div class="part12">
+            <div class="p12-2">
+                <p class="small">OUR BLOG</p>
+                <p class="headi">Follow the latest news</p>
+            </div>
+            <div class="p12">
+                <div class="p12-1">
+                <img src="kit-img/kit9.jpg" height="250px" width="100%" alt="">
+            <p class="headi-12">Galley Style Shaker Kitchen In Redditch</p>
+             <p class="date">28jun 2022-by <strong>Admin</strong></p>
+             <p class="para-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Mollitia voluptatibus, recusandae optio quisquam earum quae 
+                 assumenda placeat temporibus sapiente tenetur tempora itaque 
+                 facere.</p>
+                 <a href="#" id="link-12">READ MORE</a>
+             </div>
+ <div class="p12-1">
+                <img src="kit-img/kit10.jpg" height="250px" width="100%" alt="">
+            <p class="headi-12">Galley Style Shaker Kitchen In Redditch</p>
+             <p class="date">28jun 2022-by <strong>Admin</strong></p>
+             <p class="para-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Mollitia voluptatibus, recusandae optio quisquam earum quae 
+                 assumenda placeat temporibus sapiente tenetur tempora itaque 
+                 facere.</p>
+                 <a href="#" id="link-12">READ MORE</a>
+             </div>
+ <div class="p12-1">
+                <img src="kit-img/kit11.jpg" height="250px" width="100%" alt="">
+            <p class="headi-12">A Stunning Classic Shaker Kitchen</p>
+             <p class="date">28jun 2022-by <strong>Admin</strong></p>
+             <p class="para-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Mollitia voluptatibus, recusandae optio quisquam earum quae 
+                 assumenda placeat temporibus sapiente tenetur tempora itaque 
+                 facere?</p>
+                 <a href="#" id="link-12">READ MORE</a>
+             </div>
+
+            </div>
+            
+        </div>
+        <div class="part13">
+            <p class="small">YOU DREAM IT, WE DESIGN IT</p>
+            <p class="headi">We can built you the kitchen of your dreams</p>
+            <a href="" id="link-13">SCHEDUAL A CHAT</a>
+        </div>
+        <div class="foot">
+            <div class="fo-1">
+                <h2>KITCOR</h2>
+                <p>Subscribe us to design with us and become our clients </p>
+                <p class="headi">+1893 534 353</p>
+                <ul class="logos">
+                    <li class="lo1">
+                        <a href="#"></a>
+                    </li>
+                    <li class="lo1">
+                        <a href="#"></a>
+                    </li>
+                    <li class="lo1">
+                        <a href="#"></a>
+                    </li>
+                    <li class="lo1">
+                        <a href="#"></a>
+                    </li>
+                    <li class="lo1">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fo-2">
+                <div class="fo-2-1">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li class="fo-link">About us</li>
+                        <li class="fo-link">Our team</li>
+                        <li class="fo-link">Testimonial</li>
+                        <li class="fo-link">Shorooms</li>
+                    </ul>
+                </div>
+                <div class="fo-2-1">
+                    <h3>EXPLORE</h3>
+                    <ul>
+                        <li class="fo-link">Kitchens</li>
+                        <li class="fo-link">Counter tops</li>
+                        <li class="fo-link">Bathrooms</li>
+                        <li class="fo-link">Vanity tops</li>
+                    </ul>
+                </div>
+                <div class="fo-2-1">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li class="fo-link">FAQ</li>
+                        <li class="fo-link">Blog</li>
+                        <li class="fo-link">Design & Quote</li>
+                        <li class="fo-link">Warranty</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fo-3">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Subscribe to receive inspiration ideas and news in your inbox</p>
+                <span class="f-3-input"><input type="email" name="email" id="email" placeholder="Your email">
+                <input type="submit" name="" id="sub" value="SUBSCRIBE"></span>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+</html>
